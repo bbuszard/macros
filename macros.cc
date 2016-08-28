@@ -34,6 +34,10 @@ int main(int argc, char **argv)
     return 0;
 }
 
+//
+// Some very basic argument sanity checks.
+//
+
 double checkargs(int _argc, char **_argv)
 {
     if (_argc != 2) {
